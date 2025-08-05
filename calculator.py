@@ -1,10 +1,7 @@
-"""
-Simple Calculator Program
-Performs basic math operations on two numbers
-"""
+"""A Simple Calculator Program that performs basic math operations on two numbers """
 
 def get_number(prompt):
-    """Get a valid number from user input"""
+    "Get a valid number from user input."
     while True:
         try:
             return float(input(prompt))
